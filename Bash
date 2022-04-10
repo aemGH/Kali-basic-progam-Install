@@ -1,0 +1,42 @@
+#! /bin/bash
+
+sudo apt update
+sudo apt remove libwacom2
+sudo apt upgrade
+
+sudo apt install python3-pip
+
+sudo apt install tor
+
+sudo apt install proxychains
+
+sudo apt-get install  htop
+
+sudo apt-get install default-jdk
+
+sudo apt-get install unrar unrace rar unrar p7zip zip unzip  p7zip-full p7zip-rar file-roller -y
+
+sudo apt install vlc
+
+sudo apt-get install gdebi -y
+
+cd Desktop/
+
+wget https://bin.equinox.io/c/4VmDzA7iaHb/ngrok-stable-linux-amd64.tgz
+tar zxvf ngrok-stable-linux-amd64.tgz
+./ngrok authtoken 20jyKnZGrPfyGdDgQ4TRn0ujypY_6yHLtU7NihUZK6dXKKhKD
+
+git clone https://github.com/thewhiteh4t/seeker.git
+cd seeker/
+chmod +x install.sh
+./install.sh
+
+
+git clone https://github.com/techchipnet/CamPhish
+cd CamPhish
+
+git clone https://github.com/v1s1t0r1sh3r3/airgeddon.git
+cd airgeddon
+
+git clone https://github.com/jaykali/maskphish
+cd maskphish
